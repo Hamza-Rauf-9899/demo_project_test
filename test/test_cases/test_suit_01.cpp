@@ -4,11 +4,11 @@ demo_project:~$ g++ -o ./build/test_suit_01.out test/test_cases/test_suit_01.cpp
 demo_project:~$ ./build/test_suit_01.out
 */
 
-// #include "../../src/main_headers.h"
-// #include "../../src/what_to_test.cpp"
+#include "../../src/main_headers.h"
+#include "../../src/what_to_test.cpp"
 
-#include "main_headers.h"
-#include "what_to_test.cpp"
+// #include "main_headers.h"
+// #include "what_to_test.cpp"
 
 
 /* Need for mock: MyDatabase class uses DataBaseConnect, and But in the real life this DataBaseConnect maybe using some Database
