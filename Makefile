@@ -3,7 +3,9 @@ all:
 	# g++ -std=c++17 helloTest.cpp -lcppunit -o helloTest
 	# g++ tests.cpp -std=c++17 -lgtest -lgtest_main -lgmock -pthread -o tests
 	# g++ tests.cpp -std=c++17 -lgtest -lgtest_main -lgmock -pthread -o tests
-	g++ test_suit_01.cpp -std=c++17 -lgtest -lgtest_main -lgmock -pthread -o test_suit_01
+	# g++ test_suit_01.cpp -std=c++17 -lgtest -lgtest_main -lgmock -pthread -o test_suit_01
+
+	g++ ./test/test_cases/test_suit_01.cpp -std=c++17 -lgtest -lgtest_main -lgmock -pthread -o test_suit_01
 
 test:
 	./test_suit_01
