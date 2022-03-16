@@ -41,6 +41,9 @@ on:
   pull_request:
     branches: [ master ]
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
 jobs:
   build-and-test:
 
@@ -49,7 +52,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: install libgtest
-      # run: sudo apt install -y libcppunit-dev
       run: sudo apt-get install -y libgtest-dev
     - name: install libgmock
       run: sudo apt-get install -y libgmock-dev
