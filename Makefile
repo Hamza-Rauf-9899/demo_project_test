@@ -8,7 +8,7 @@ all:
 	g++ ./test/test_cases/test_suit_01.cpp -std=c++17 -lgtest -lgtest_main -lgmock -pthread -o ./build/test_suit_01.out
 	# ./build/test_suit_01.out
 
-# test:
+test:
 	./test_suit_01.out
 
 clean:
