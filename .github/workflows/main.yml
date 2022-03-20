@@ -51,6 +51,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - uses: pre-commit/action@v2.0.3
     - name: install libgtest
       run: sudo apt-get install -y libgtest-dev
     - name: install libgmock
