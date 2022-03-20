@@ -12,4 +12,4 @@ test:
 	./build/test_suit_01.out
 
 clean:
-	$(RM) test_suit_01
+	$(RM) ./build/test_suit_01.out
