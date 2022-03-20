@@ -9,7 +9,7 @@ all:
 	# ./build/test_suit_01.out
 
 test:
-	./test_suit_01.out
+	./build/test_suit_01.out
 
 clean:
 	$(RM) test_suit_01
