@@ -51,7 +51,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: pre-commit/action@v2.0.3
+    # - uses: pre-commit/action@v2.0.3
     - name: install libgtest
       run: sudo apt-get install -y libgtest-dev
     - name: install libgmock
@@ -60,5 +60,5 @@ jobs:
       run: ./configure
     - name: make
       run: make
-    # - name: make test
-    #   run: make test
+    - name: make test
+      run: make test
