@@ -56,8 +56,8 @@ jobs:
       run: sudo apt-get install -y libgtest-dev
     - name: install libgmock
       run: sudo apt-get install -y libgmock-dev
-    - name: configure
-      run: ./configure
+    # - name: configure
+    #   run: ./configure
     - name: make
       run: make
     # - name: make test

@@ -1,6 +1,6 @@
 /*
 To run the test_suit_01.cpp:
-demo_project:~$ g++ -o ./build/test_suit_01.out test/test_cases/test_suit_01.cpp -std=c++11 -lgtest -lgtest_main -lgmock -pthread
+demo_project:~$ g++ test/test_cases/test_suit_01.cpp -std=c++11 -lgtest -lgtest_main -lgmock -pthread -o ./build/test_suit_01.out
 demo_project:~$ ./build/test_suit_01.out
 */
 
