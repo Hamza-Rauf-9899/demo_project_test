@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+g++ test/test_cases/test_suit_01.cpp -std=c++11 -lgtest -lgtest_main -lgmock -pthread -o ./build/test_suit_01.out
+./build/test_suit_01.out
+
+RESULT=$?
+
+if [[ ${RESULT} -ne 0 ]]
+then
+    RED='\033[0;31m'
+    printf  "${RED}Unit tests failed. Commit rejected"
+fi
+exit ${RESULT}
