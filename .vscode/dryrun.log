@@ -1,5 +1,5 @@
-make --dry-run --keep-going --print-directory
-make: Entering directory '/home/hamzapc/Downloads/unit-test/demo_project_test'
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/media/hamzapc/D/Internship/unit-test/demo_project_test'
 # g++ -std=c++17 totest.cpp -o totest
 # g++ -std=c++17 helloTest.cpp -lcppunit -o helloTest
 # g++ tests.cpp -std=c++17 -lgtest -lgtest_main -lgmock -pthread -o tests
@@ -7,5 +7,5 @@ make: Entering directory '/home/hamzapc/Downloads/unit-test/demo_project_test'
 # g++ test_suit_01.cpp -std=c++17 -lgtest -lgtest_main -lgmock -pthread -o test_suit_01
 g++ ./test/test_cases/test_suit_01.cpp -std=c++17 -lgtest -lgtest_main -lgmock -pthread -o ./build/test_suit_01.out
 ./build/test_suit_01.out
-make: Leaving directory '/home/hamzapc/Downloads/unit-test/demo_project_test'
+make: Leaving directory '/media/hamzapc/D/Internship/unit-test/demo_project_test'
  
